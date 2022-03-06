@@ -1,0 +1,288 @@
+.hlavicka_tlacidla {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.domov {
+    border: none;
+    background-color: white;
+    color: rgb(31, 134, 230);
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+    padding-right: 20px;
+}
+
+.domov:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(5px)
+}
+
+.predajne {
+    border: none;
+    background-color: white;
+    color: rgb(31, 134, 230);
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+    padding-right: 20px;
+}
+
+.predajne:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(5px)
+}
+
+.kontakt {
+    border: none;
+    background-color: white;
+    color: rgb(31, 134, 230);
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+    padding-right: 20px;
+}
+
+.kontakt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(5px)
+}
+
+.o_nas {
+    border: none;
+    background-color: white;
+    color: rgb(31, 134, 230);
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+    padding-right: 80px;
+}
+
+.o_nas:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(5px)
+}
+
+.man_prihlaste_sa {
+    height: 20px;
+    padding-right: 20px;
+    width: 20px;
+}
+
+.prihlaste_sa {
+    border: none;
+    background-color: white;
+    opacity: 50%;
+    color: rgb(31, 134, 230);
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.prihlaste_sa:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(2px);
+    opacity: 100%;
+}
+
+hr {
+    opacity: 50%;
+    color: rgb(31, 134, 230);
+}
+
+.button_logo {
+    background-color: white;
+    border: none;
+    padding-top: 0px;
+    transition-duration: 0.5s;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.button_logo:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 70px;
+}
+
+.hlavicka_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_logo_nadpis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vyhladavanie_img {
+    width: 700px;
+    transition: 0.5s;
+}
+
+.vyhladavanie_img:hover {
+    cursor: not-allowed;
+}
+
+.kosik_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kosik_cena {
+    transition: 0.5s;
+}
+
+.kosik_cena:hover {
+    text-decoration: underline;
+    cursor: not-allowed;
+}
+
+.kosik_img {
+    width: 50px;
+}
+
+.kosik_button {
+    border: none;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.kosik_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hlavne_tlacidla {
+    background-color: rgb(31, 134, 230);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 80%;
+}
+
+.telefony {
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+
+.telefony:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 50%;
+}
+
+.domace_spotrebice {
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+
+.domace_spotrebice:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 50%;
+}
+
+.fotoaparaty {
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+
+.fotoaparaty:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 50%;
+}
+
+.pocitace {
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+
+.pocitace:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 50%;
+}
+
+.produkt1_div {
+    display: flex;
+}
+
+.produkt1_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_iphone {
+    text-align: left;
+    float: left;
+}
+
+.vlozit_do_kosika {
+    background-color: rgb(31, 134, 230);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    opacity: 80%;
+}
+
+.vlozit_do_kosika:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+.zlavnena_cena {
+    color: red;
+    text-decoration: line-through;
+}
+
+.cena {
+    padding-left: 15px;
+}
+
+.h1 {
+    text-align: center;
+    color: red;
+}
+
+.copyright {
+    text-align: center;
+    opacity: 50%;
+    color: rgb(31, 134, 230);
+}

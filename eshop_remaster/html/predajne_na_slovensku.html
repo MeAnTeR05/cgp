@@ -1,0 +1,86 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="../resources/predajne.css" type="text/css" />
+</head>
+<html>
+
+<body>
+    <div class="kontajner">
+
+        <div class="hlavicka">
+            <div class="hlavicka_tlacidla">
+                <a class="domov" href="../html/index.html">DOMOV</a>
+                <a class="predajne" href="../html/predajne_na_slovensku.html">PREDAJNE NA SLOVENSKU</a>
+                <a class="kontakt" href="../html/predajne_na_slovensku.html">KONTAKT</a>
+                <a class="o_nas" href="../html/onas.html">O NÁS</a>
+                <img src="../resources/prihlaste_sa.png" class="man_prihlaste_sa"><button class="prihlaste_sa" onclick="alert('Momentálne nedostupné')"> Prihláste sa</button>
+            </div>
+        </div>
+        <hr>
+        <div class="hlavicka_2">
+            <div class="div_logo_nadpis">
+                <a href="../html/index.html" class="button_logo"><img src="../resources/icons8-electronics-50.png" class="logo">
+                    <p class="nazov">ELEctro SHOP</p>
+                </a>
+            </div>
+            <div class="vyhladavanie">
+                <img src="../resources/vyhladavanie.jpg" class="vyhladavanie_img">
+            </div>
+            <div class="kosik_div">
+                <img src="../resources/kosik.png" class="kosik_img">
+                <p class="kosik_cena">0,00€</p>
+            </div>
+        </div>
+
+        <div class="hlavne_tlacidla">
+            <a href="../html/telefony.html" class="telefony">TELEFÓNY</a>
+            <a href="../html/dom_spotrebice.html" class="domace_spotrebice">DOMÁCE SPOTREBIČE</a>
+            <a class="fotoaparaty" href="../html/fotoaparaty.html">FOTOAPARÁTY</a>
+            <a class="pocitace" href="../html/pocitace.html">POČÍTAČE A PRÍSLUŠENSTVO</a>
+        </div>
+        <br>
+        <div class="predajne_div">
+            <div class="mapa_text">
+                <h3 class="infolinka">Infolinka:</h3>
+                <h3 class="tel_cislo">+421 910 669 669</h3>
+                <p class="pracovne_dni">Funguje cez pracovné dni od 8:00 do 22:00; víkendy a sviatky NEFUNGUJE!</p>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d672163.7933915779!2d19.882697841791263!3d48.84600861392848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e2546b1458ed3%3A0xbee250c574245af2!2sNAY%20Poprad%20SC%20Tatry!5e0!3m2!1ssk!2ssk!4v1646556581055!5m2!1ssk!2ssk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class=" fieldset">
+                <fieldset>
+                    <legend>Kontaktné údaje:</legend>
+                    <label>Meno a priezvisko <br><input type="text" name="kontaktne_udaje" size="50"
+                    maxlength="100 "></label><br />
+                    <label>Emailová adresa: <br> <input type="email" name="emailova_adresa" size="50"
+                    maxlength="100"></label><br />
+                    <label for="komentar">Vaša správa:</label><br>
+                    <textarea id="komentar" cols="50" rows="8" maxlength="250"></textarea>
+                    <eldset><br/>
+                        <fieldset>
+                            <legend>Vaše hodnotenie:</legend>
+                            <p>
+                                <label for="info">Ako ste sa o nás dozvedeli?</label>
+                                <select name="respondent" id="info">
+                    <option value="facebook">Facebook</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="ine">Dozvedel som sa od známeho</option>
+                    </select>
+                            </p>
+                            <p>Páči sa Vám dizajn našej stránky?<br />
+                                <label><input type="radio" name="Hodnotenie" value="ano" />Áno</label>
+                                <label><input type="radio" name="Hodnotenie " value="nie" />Nie</label><br>
+                                <label><input type="checkbox" name="subscribe" checked="checked" />Prihlásiť sa na odber
+                    noviniek</label><br>
+                                <input type="submit" value="Odoslať formulár">
+
+                                </feldset>
+                        </fieldset>
+
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">©2022 Matúš Kažmír</div>
+
+</html>
